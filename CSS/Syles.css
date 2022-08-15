@@ -100,3 +100,29 @@ color: red;
     
 }
 
+.animacion{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.animacion .ayuda{
+    width: 50%;
+}
+
+.ayuda{
+    animation-name: ayuda;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ayuda{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(2);
+    }
+}
